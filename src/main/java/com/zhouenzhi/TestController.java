@@ -17,7 +17,7 @@ public class TestController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        System.err.println("---");
-        //解决乱码
+        //解决乱码啊
         req.setCharacterEncoding("UTF-8");
         String name=req.getParameter("name");
         req.setAttribute("name",name);
